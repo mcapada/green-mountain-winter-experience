@@ -1,0 +1,131 @@
+  
+        body {
+            color: black;
+            font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+            background-color:#ededed;
+            font-size: 20;
+            text-transform: uppercase;
+        }
+              
+        header {
+            background-color: #71c1e665;
+            border-style: groove;
+            font-size: 20;
+            text-transform: uppercase;
+        }
+          
+        .container {
+            width: flex;
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+        }
+
+        .container2 {
+            float:left;
+            margin: auto;
+            width: 50%;
+    
+            font-size: 150%;
+         }
+
+        .introparagraph {
+            margin-right:250px;
+            margin-left: 250px;
+            font-size: 17;
+            text-transform: none;
+            text-align: justify;
+        }
+
+        header::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+        .images {
+            float: left;
+            margin-right: 10px;
+            border-style: groove;
+        }
+
+        .logo {
+            float: left;
+            padding: 1px 0;
+            width: 200px; 
+            height: auto;
+            left: 0;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            font-size: 22;
+            margin-right: 20px;
+            right: 0;
+        }
+
+        nav li {
+            display: inline;
+            padding-top: 25px;
+            margin-left: 10px;
+            color: #000;
+
+        }
+
+        nav a {
+            color: #444;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: 0.4s;
+        }
+
+        .mouseon:hover {
+            background-color:black;
+            color:white;
+            padding: 20px 8px;
+            padding-top:10px;
+            padding-bottom: 10px;
+        }
+
+        .clicked {
+            background-color: black;
+            color:white;
+            padding: 20px 8px;
+            padding-top:10px;
+            padding-bottom: 10px;
+        }
+
+        .container3 {
+            width: flex;
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: #ffffff85;
+            border-style: groove;
+            padding: 30px 30px;
+            text-transform: none; 
+            text-align: center;
+            font-size: 100%;
+            Font: "Verdana";
+        }
+
+        .container5 {
+            width: flex;
+            margin-left: 90px;
+            margin-right: 90px;
+            background-color: #ffffff85;
+            border-style: groove;
+            padding: 30px 200px;
+            height: 400px;
+        }
+
+
+        .container4 {
+            text-align: right;
+        }
+
+        img {
+            float:left;
+        }
